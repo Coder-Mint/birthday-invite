@@ -1,0 +1,46 @@
+body {
+    padding: 10px;
+    font-family: 'Salsa', cursive;
+    background-image: linear-gradient(to right, #fef3f4, #b5e2f0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 500px;
+}
+
+iframe {
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    width: 100%;
+}
+
+ul {
+    text-align: left;
+    position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
+}
+
+.copyright {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: #fff;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+}
